@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{768673C3-ED7D-49E6-B803-371080952236}</ProjectGuid>
+    <ProjectGuid>{5488F144-B562-452A-8C01-AA1AE072A4E5}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ch_001_001_Hello.UWP</RootNamespace>
-    <AssemblyName>Ch_001_001_Hello.UWP</AssemblyName>
+    <RootNamespace>Ch_001_002_Greetings.UWP</RootNamespace>
+    <AssemblyName>Ch_001_002_Greetings.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
@@ -17,7 +17,7 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>Ch_001_001_Hello.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Ch_001_002_Greetings.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -101,7 +101,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Ch_001_001_Hello.UWP_TemporaryKey.pfx" />
+    <None Include="Ch_001_002_Greetings.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -149,12 +149,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.6" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ch_001_001_Hello\Ch_001_001_Hello.csproj">
-      <Project>{4753C553-1217-4757-86C2-048F0C01DA9E}</Project>
-      <Name>Ch_001_001_Hello</Name>
+    <ProjectReference Include="..\Ch_001_002_Greetings\Ch_001_002_Greetings.csproj">
+      <Project>{138C5BF5-8A6B-42C0-A712-37FCBE90A73F}</Project>
+      <Name>Ch_001_002_Greetings</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
