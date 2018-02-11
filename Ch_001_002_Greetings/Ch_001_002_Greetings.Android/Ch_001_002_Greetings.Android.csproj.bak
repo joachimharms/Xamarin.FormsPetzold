@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C157A1B3-F0A4-4F6F-8A1C-B9DC116F0680}</ProjectGuid>
+    <ProjectGuid>{04E26B4B-0614-42A2-8034-52E1696D6A76}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Ch_001_001_Hello.Droid</RootNamespace>
-    <AssemblyName>Ch_001_001_Hello.Android</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <RootNamespace>Ch_001_002_Greetings.Droid</RootNamespace>
+    <AssemblyName>Ch_001_002_Greetings.Android</AssemblyName>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -79,11 +79,14 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\Ch_001_001_Hello\Ch_001_001_Hello.csproj">
-      <Project>{4753C553-1217-4757-86C2-048F0C01DA9E}</Project>
-      <Name>Ch_001_001_Hello</Name>
+    <ProjectReference Include="..\Ch_001_002_Greetings\Ch_001_002_Greetings.csproj">
+      <Project>{138C5BF5-8A6B-42C0-A712-37FCBE90A73F}</Project>
+      <Name>Ch_001_002_Greetings</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+
+
+ <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
