@@ -11,11 +11,9 @@ namespace Ch_001_002_Greetings
 	{
 		public GreetingsPage ()
 		{
-			Content = new StackLayout {
-				Children = {
-					new Label { Text = "Welcome to Xamarin.Forms!" }
-				}
-			};
-		}
+            Label label = new Label();
+            label.Text = "Greetings, Xamarin.Forms!";
+            this.Content = label;
+        }
 	}
 }

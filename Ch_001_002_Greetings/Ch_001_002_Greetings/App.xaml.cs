@@ -13,7 +13,7 @@ namespace Ch_001_002_Greetings
 		{
 			InitializeComponent();
 
-			MainPage = new Ch_001_002_Greetings.MainPage();
+			MainPage = new Ch_001_002_Greetings.GreetingsPage();
 		}
 
 		protected override void OnStart ()
